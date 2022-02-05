@@ -16,6 +16,11 @@ let songIndex = 2;
 //Zene adatainak betöltése a DOMba
 loadSong(songs[songIndex]);
 
+window.addEventListener("DOMContentLoaded", function(){
+
+    console.log('Az oldal betöltődött.');
+
+});
 
 //Frissítjük a zenék adatait
 function loadSong(song){
